@@ -3,8 +3,13 @@
 import sys
 import numpy
 
+def sort(list):
+	sortList = list
+	return sortList
+
 def parcours(list):
-	print(list)
+	sortList = sort(list)
+	print(sortList)
 
 def main():
 	list = numpy.random.normal(0,1000,1000).tolist()
