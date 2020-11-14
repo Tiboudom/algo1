@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import sys
+import numpy
+
+def parcours(list):
+	print(list)
+
+def main():
+	list = numpy.random.normal(0,1000,1000).tolist()
+	parcours(list)
+	sys.exit(0)
+
+
+
+main()
